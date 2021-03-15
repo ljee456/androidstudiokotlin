@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnKakaoOpenAPI"
+        android:textSize="16dp"
+        android:text="카카오 오픈 api 활용(json parsing)" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnItemDetail"
+        android:textSize="13dp"
+        android:text="item 상세보기(jsonparsing-image다운로드)" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnItemInsert"
+        android:textSize="13dp"
+        android:text="item 추가(jsonparsing-file upload)" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMemberJoin"
+        android:textSize="13dp"
+        android:text="회원 가입(jsonparsing-file upload)" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMemberLogin"
+        android:textSize="13dp"
+        android:text="회원 로그인(file upload가 없는 post 방식)" />
+
+
+</LinearLayout>

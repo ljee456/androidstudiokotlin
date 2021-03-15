@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "766098793550",
+    "project_id": "nicelee-9ff5b",
+    "storage_bucket": "nicelee-9ff5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766098793550:android:bdb8d0ae14f0fe7edb4f1f",
+        "android_client_info": {
+          "package_name": "itlee.google.seoultoliet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766098793550-56mb4crdoji5t62mrk3plrqs9pf1ieq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "itlee.google.seoultoliet",
+            "certificate_hash": "90b12708f6545b3471d07cd436a461efb5bb536f"
+          }
+        },
+        {
+          "client_id": "766098793550-adh7f06vt0sfb14cb0n163i32ca2fp4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALK6R-IgdAoxLMedqMcxD-QHOexjXhUS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766098793550-adh7f06vt0sfb14cb0n163i32ca2fp4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

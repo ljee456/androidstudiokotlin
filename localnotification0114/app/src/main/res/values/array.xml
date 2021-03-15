@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language">
+        <item>C&amp;C++</item>
+        <item>C#</item>
+        <item>Java</item>
+        <item>JavaScript</item>
+        <item>Objective-C</item>
+        <item>R</item>
+        <item>Scala</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>Go</item>
+    </string-array>
+</resources>

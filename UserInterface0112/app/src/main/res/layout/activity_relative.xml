@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디"
+        android:id="@+id/txtid"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="아이디"
+        android:id="@+id/editid"
+        android:layout_below="@+id/txtid"
+        android:layout_alignLeft="@+id/txtid"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호"
+        android:id="@+id/txtpw"
+        android:layout_below="@+id/editid"
+        android:layout_alignLeft="@+id/editid"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/editpw"
+        android:layout_below="@+id/txtpw"
+        android:layout_alignLeft="@+id/txtpw"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>
